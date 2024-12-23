@@ -22,6 +22,7 @@
 body {
     background-color: black;
     color: white;
+    height: 100svh;
 
   /* Patterned Background */
   --s: 49px; /* control the size*/
