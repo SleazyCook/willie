@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 *,
 *::before,
 *::after {
@@ -15,4 +17,10 @@
 body {
     background-color: black;
     color: green;
+}
+
+.title {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
 }
