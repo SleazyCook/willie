@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::_wekbit-scrollbar {
+  display: none;
+}
+
+body {
+    background-color: black;
+    color: green;
+}
