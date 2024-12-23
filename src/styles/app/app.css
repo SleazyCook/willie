@@ -41,7 +41,7 @@ body {
   background-color: #1c2130;
   border-left: 1px solid var(--color-secondary);
   border-right: 1px solid var(--color-secondary);
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
   height: 100svh;
 }
