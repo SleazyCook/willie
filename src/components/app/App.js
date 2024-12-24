@@ -17,7 +17,7 @@ function App() {
     return(
         <div className='app-content'>
 
-            {windowSize.width > 1000 ? <Mobile /> : <Outlet context />}
+            {windowSize.width < 1000 ? <Mobile /> : <Outlet context />}
 
         </div>
     )
