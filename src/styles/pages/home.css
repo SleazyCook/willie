@@ -2,7 +2,12 @@
 
 
 .home {
-
+    display: flex;
+    flex-direction: column;
+    /* height: 100svh; */
+    /* border-left: 1px solid red; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .home__header {

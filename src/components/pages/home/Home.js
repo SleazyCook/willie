@@ -1,3 +1,5 @@
+
+
 import social from "../../../data/social"
 
 function Home() {
@@ -30,6 +32,8 @@ function Home() {
                     )
                 })}
             </div>
+
+
 
         </div>
     )
