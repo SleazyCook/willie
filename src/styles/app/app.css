@@ -26,17 +26,31 @@ body {
     height: 100svh;
 
   /* Patterned Background */
-  --s: 49px; /* control the size*/
+  --s: 49px; /* control the size */
   --c1: var(--color-primary);
   --c2: var(--color-secondary);
   
-  --c:var(--c1) 0 25%,#0000 0;
-  --p:0 0/calc(3*var(--s)) calc(2*var(--s));
+  --c: var(--c1) 0 25%, #0000 0;
+  --p: 0 0/calc(3 * var(--s)) calc(2 * var(--s));
+  
   background:
-    conic-gradient(from -45deg at 75% 62.5%,var(--c)) var(--p),
-    conic-gradient(from 135deg at 25% 37.5%,var(--c)) var(--p),
-    repeating-conic-gradient(from 90deg,var(--c),var(--c2) 0 50%)
+    conic-gradient(from -45deg at 75% 62.5%, var(--c)) var(--p),
+    conic-gradient(from 135deg at 25% 37.5%, var(--c)) var(--p),
+    repeating-conic-gradient(from 90deg, var(--c), var(--c2) 0 50%)
       0 0/var(--s) var(--s);
+  
+  /* Animation to move the squares smoothly */
+  animation: moveBackground 120s linear infinite; /* Slow down the movement */
+}
+
+/* Keyframes to animate the background position */
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: calc(100% - var(--s)) 0, calc(100% - var(--s)) 0, calc(100% - var(--s)) 0;
+  }
 }
 
 .app-content {
