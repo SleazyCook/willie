@@ -1,23 +1,28 @@
-import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 
 import Mobile from './Mobile'
 
+import Sidebar from './Sidebar'
+
 import '../../styles/app/app.css'
+import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
+import '../../styles/components/social.css'
 
 function App() {
 
-    // Window Size
-    const [windowSize, setWindowSize] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight
-    })
-
     return(
-        <div className='app-content'>
+        <div>
 
-            {windowSize.width < 1000 ? <Mobile /> : <Outlet context />}
+            {window.innerWidth < 1000 ? <Mobile /> 
+            
+            : 
+            
+                <div className='app-content'>
+                    <Sidebar />
+                    <Outlet context />
+                </div>
+            }
 
         </div>
     )

@@ -16,6 +16,18 @@ const social = [
         name: 'BlueSky',
         link: 'https://bsky.app/profile/thepackmack.bsky.social',
         icon: 'https://i.imgur.com/IIXCTFI.png'
+    },
+    {
+        id: 4,
+        name: 'Spotify',
+        link: 'https://open.spotify.com/user/daigosensei?si=7KlcEuKnTzeQgCYuyB2BMw',
+        icon: 'https://i.imgur.com/lstdrLq.png'
+    },
+    {
+        id: 5,
+        name: 'Soundcloud',
+        link:  'https://on.soundcloud.com/8mwSj3coKv4DmRmm6',
+        icon: 'https://i.imgur.com/b3cytfM.png'
     }
 ]
 

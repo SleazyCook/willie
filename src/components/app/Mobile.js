@@ -1,9 +1,9 @@
-import Home from "../pages/home/Home"
+import Home from "./MobileHome"
 import Footer from "../components/Footer"
 
 function Mobile() {
     return(
-        <div className='page mobile'>
+        <div className='mobile'>
 
             <Home />
 

@@ -40,7 +40,7 @@ body {
       0 0/var(--s) var(--s);
   
   /* Animation to move the squares smoothly */
-  animation: moveBackground 120s linear infinite; /* Slow down the movement */
+  animation: moveBackground 120s linear infinite; 
 }
 
 /* Keyframes to animate the background position */
@@ -51,19 +51,6 @@ body {
   100% {
     background-position: calc(100% - var(--s)) 0, calc(100% - var(--s)) 0, calc(100% - var(--s)) 0;
   }
-}
-
-.app-content {
-  background-color: #1c2130;
-  border-left: 1px solid var(--color-secondary);
-  border-right: 1px solid var(--color-secondary);
-  width: 300px;
-  margin: 0 auto;
-  height: 100svh;
-}
-
-.page {
-  /* padding: 2rem; */
 }
 
 .title {
@@ -98,4 +85,29 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 300px;
+  background-color: var(--color-primary);
+
+}
+
+.mobile-home {
+  height: 100svh;
+  padding-top: 2rem;
+}
+
+/* desktop version */
+
+.app-content {
+  background-color: #1c2130;
+  margin: 0 auto;
+  height: 100svh;
+  width: 1001px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  min-width: 600px;
+  border-right: 1px solid var(--color-secondary);
 }
