@@ -19,11 +19,13 @@ function Home() {
                         <a 
                             className={`social-btn social-btn--${socialObj.name}`}
                             href={socialObj.link} 
-                            id={socialObj.id} 
+                            key={socialObj.id} 
                             target='_blank'
                         >
-                            <img src={socialObj.icon} alt={`${socialObj.name} logo`} />
-                            <span>{socialObj.name}</span>
+                            <span className='social-btn--icon'>
+                                <img src={socialObj.icon} alt={`${socialObj.name} logo`} />
+                            </span>
+                            <span className='social-btn--text'>{socialObj.name}</span>
                         </a>
                     )
                 })}
