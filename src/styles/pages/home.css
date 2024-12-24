@@ -25,16 +25,9 @@
 
 /* Adapted from Uiverse.io by gagan-gv */ 
 .social-btn {
-    border: none;
     transition: all 0.5s ease-in-out;
-    display: flex;
-    align-items: center;
-    background: #040f16;
-    color: #f5f5f5;
     text-decoration: none;
-    color: white;
     text-align: center;
-    background-color: gray; 
     border-radius: 1rem;
     width: 12rem;
     max-height: 2rem;
@@ -46,47 +39,46 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
 }
 
 .social-btn:hover {
-box-shadow: 0 0 20px 0px #2e2e2e3a;
+    box-shadow: 10 10 10px 10px #2e2e2e3a;
 }
 
 .social-btn--icon img {
-max-height: 2rem;
+    max-height: 2rem;
 }
 
 .social-btn .social-btn--icon {
-position: absolute;
-height: 40px;
-width: 70px;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: all 0.5s;
-transform: translateX(-55px)
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    transform: translateX(-55px)
 ;  }
 
 .social-btn  .social-btn--text {
-transform: translateX(25px);
+    transform: translateX(25px);
 }
 
 .social-btn:hover .social-btn--icon {
-width: 55px;
+    width: 55px;
 }
 
 .social-btn:hover .social-btn--text {
-transition: all 0.5s;
-opacity: 0;
+    transition: all 0.5s;
+    opacity: 0;
 }
 
 .social-btn:focus {
-outline: none;
+    outline: none;
 }
 
 .social-btn:hover .social-btn--icon {
-transform: scale(1);
+    transform: scale(1);
 }
 
   /* custom social styles  */
@@ -99,6 +91,7 @@ transform: scale(1);
 .social-btn--BlueSky {
     background-color: rgb(22, 30, 39);
     font-family: sans-serif;
+    color: white;
 }
 
 .social-btn--YouTube {
