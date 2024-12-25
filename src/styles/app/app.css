@@ -92,7 +92,7 @@ body {
 }
 
 .mobile-home {
-  height: 100svh;
+  min-height: 100svh;
   padding-top: 2rem;
 }
 
