@@ -138,3 +138,12 @@ body {
   min-width: 600px;
   border-right: 1px solid var(--color-secondary);
 }
+
+.page__header {
+  text-align: center;
+  font-family: "Permanent Marker", serif;
+  color: var(--color-secondary);
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}

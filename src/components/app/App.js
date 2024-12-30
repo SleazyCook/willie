@@ -7,6 +7,7 @@ import Sidebar from './Sidebar'
 import '../../styles/app/app.css'
 import '../../styles/app/sidebar.css'
 import '../../styles/pages/home.css'
+import '../../styles/pages/about.css'
 import '../../styles/components/social.css'
 
 function App() {

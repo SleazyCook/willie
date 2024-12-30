@@ -1,0 +1,15 @@
+.about {
+    margin-top: 2rem;
+}
+
+.about__content {
+    padding: 2rem;
+}
+
+.about__content p {
+    text-indent: 2rem;
+}
+
+.about__content p:not(:last-child) {
+    margin-bottom: 1rem;
+}
