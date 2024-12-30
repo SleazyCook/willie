@@ -7,7 +7,7 @@ function MobileHome() {
         <div className='mobile-home'>
             
             {/* header */}
-            <div className='home__header'>
+            <div className='header'>
                 <img src='https://i.imgur.com/986JIcQ.jpg' alt='avatar' />
                 <h1 className='title'>
                     [EMB]

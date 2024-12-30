@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Header from '../components/Header'
 import Navigation from '../components/Navigation'
 import Spotify from '../components/Spotify'
@@ -7,6 +9,8 @@ function Sidebar() {
     return(
         <div className='sidebar'>
             <Header />
+
+            <Link to='/' className='elitemagicalbeats'>Elite Magical Beats</Link>
 
             <Navigation />
 
