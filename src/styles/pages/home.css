@@ -11,20 +11,5 @@
     padding-bottom: 2rem;
 }
 
-.home__header {
-    text-align: center;
-}
 
-.home__header img {
-    max-width: 8rem;
-    border-radius: 50%;
-    border: 5px solid var(--color-secondary);
-}
-
-@media (min-width: 1000px) {
-    .home__header img {
-        max-width: 10rem;
-        border: 8px solid var(--color-secondary);
-    }
-}
 /*  */
