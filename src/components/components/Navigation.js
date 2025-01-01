@@ -16,7 +16,7 @@ function Navigation() {
         {
             id: 3,
             name: 'Contact',
-            link: ''
+            link: 'contact'
         }
     ]
 

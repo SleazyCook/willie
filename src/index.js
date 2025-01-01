@@ -6,6 +6,7 @@ import ErrorPage from './components/app/ErrorPage.js'
 
 import Home from './components/pages/home/Home.js'
 import About from './components/pages/About.js'
+import Contact from './components/pages/Contact.js'
 
 const appElement = document.getElementById('app')
 const root = createRoot(appElement)
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <About />
+            },
+            {
+                path: 'contact',
+                element: <Contact />
             }
         ]
     }
