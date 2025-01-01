@@ -8,7 +8,6 @@ import Footer from '../components/Footer'
 function Sidebar() {
     return(
         <div className='sidebar'>
-            <Header />
 
             <Link to='/' className='elitemagicalbeats'>Elite Magical Beats</Link>
 

@@ -58,9 +58,6 @@
 
 /* small laptop fix */
 @media (max-height: 800px) {
-  .sidebar .header {
-    display: none;
-  }
 
   .spotify {
     margin-top: -4rem;
