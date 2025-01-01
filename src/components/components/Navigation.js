@@ -13,11 +13,11 @@ function Navigation() {
             name: 'About',
             link: 'about'
         },
-        {
-            id: 3,
-            name: 'Contact',
-            link: 'contact'
-        }
+        // {
+        //     id: 3,
+        //     name: 'Contact',
+        //     link: 'contact'
+        // }
     ]
 
     return(
