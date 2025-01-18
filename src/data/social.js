@@ -13,6 +13,12 @@ const social = [
     },
     {
         id: 3,
+        name: 'Archidekt',
+        link: 'https://archidekt.com/search/decks?owner=thepackmack&ownerexact=true',
+        icon: 'https://i.imgur.com/CPesF8Q.png',
+    },
+    {
+        id: 3,
         name: 'BlueSky',
         link: 'https://bsky.app/profile/thepackmack.bsky.social',
         icon: 'https://i.imgur.com/IIXCTFI.png'

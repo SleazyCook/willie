@@ -38,7 +38,7 @@
 }
 
 .navigation {
-  margin-top: -10rem;
+  margin-top: -4rem;
 }
 
 .nav-link {
@@ -58,6 +58,9 @@
 
 /* small laptop fix */
 @media (max-height: 800px) {
+  .sidebar .header {
+    display: none;
+  }
 
   .spotify {
     margin-top: -4rem;
@@ -125,6 +128,10 @@
   border: 1px solid rgb(0, 255, 213);
   box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
 }
+
+
+
+/* ANIMATIONS */
 
 @keyframes glitch_4011 {
   0% {
